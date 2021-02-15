@@ -1,0 +1,30 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 499f185f4f435935595ec7f770db81e85f10c36915bdd76c702eab97323befe8
+
+name:           wai-request-id-benchmarks
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/saurabhnanda/wai-request-id-benchmarks#readme
+author:         Saurabh Nanda
+maintainer:     saurabhnanda@gmail.com
+copyright:      Saurabh Nanda
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable wai-request-id-benchmarks
+  main-is: Main.hs
+  other-modules:
+      Paths_wai_request_id_benchmarks
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
